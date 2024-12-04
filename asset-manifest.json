@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MTT_nivelCero/static/css/main.cb5ababc.css",
-    "main.js": "/MTT_nivelCero/static/js/main.97c9dde4.js",
+    "main.js": "/MTT_nivelCero/static/js/main.80ee4ebb.js",
     "static/js/453.4574419c.chunk.js": "/MTT_nivelCero/static/js/453.4574419c.chunk.js",
     "index.html": "/MTT_nivelCero/index.html",
     "main.cb5ababc.css.map": "/MTT_nivelCero/static/css/main.cb5ababc.css.map",
-    "main.97c9dde4.js.map": "/MTT_nivelCero/static/js/main.97c9dde4.js.map",
+    "main.80ee4ebb.js.map": "/MTT_nivelCero/static/js/main.80ee4ebb.js.map",
     "453.4574419c.chunk.js.map": "/MTT_nivelCero/static/js/453.4574419c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb5ababc.css",
-    "static/js/main.97c9dde4.js"
+    "static/js/main.80ee4ebb.js"
   ]
 }
