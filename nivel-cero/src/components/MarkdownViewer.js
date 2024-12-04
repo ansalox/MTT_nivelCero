@@ -22,7 +22,7 @@ const MarkdownViewer = ({ url }) => {
 
   useEffect(() => {
     if (url) {
-      fetch(url)
+      fetch(`${process.env.PUBLIC_URL}/${url}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error(`Error al cargar el archivo: ${response.status}`);
@@ -35,7 +35,7 @@ const MarkdownViewer = ({ url }) => {
   }, [url]);
 
   return (
-    <div className="p-4 prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
+    <div className="p-4 bg-black text-gray-100 prose prose-sm sm:prose lg:prose-lg xl:prose-xl"> {/* Más blanco con text-gray-50 */}
       {error ? (
         <div className="text-red-500">Error: {error}</div>
       ) : (
