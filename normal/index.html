@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nivel Cero Dashboard</title>
+
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Marked.js (CDN) -->
+  <script src="./marked.min.js"></script>  <!-- Ajusta el camino si es necesario -->
+
+  <!-- Custom styles (styles.css) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nivel Cero Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="container-fluid d-flex">
+    <!-- Sidebar -->
+    <div class="bg-dark text-white p-4" style="width: 250px; height: 100vh;">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" id="home-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" id="desarrollo-web-link">Desarrollo Web</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" id="git-github-link">Git/GitHub</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container py-5" id="content-container" style="width: 100%; padding-left: 300px;">
+      <!-- Home Section -->
+      <div id="home">
+        <h1>Bienvenido al Dashboard Nivel Cero</h1>
+        <button class="btn btn-primary mt-4" id="go-to-dashboard-btn">Ir al Dashboard</button>
+      </div>
+
+      <!-- Nivel Cero Section -->
+      <div id="nivel-cero" class="d-none">
+        <h2>Nivel Cero - Bienvenido</h2>
+        <div id="markdown-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="scripts.js"></script> <!-- Asegúrate de que esto esté al final -->
+</body>
+</html>

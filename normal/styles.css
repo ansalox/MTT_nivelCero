@@ -1,0 +1,24 @@
+/* Estilo básico para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para el contenido */
+  #content-container {
+    margin-left: 270px;
+  }
+  
+  /* Personalización del botón de copiar */
+  button.copy-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.copy-btn:hover {
+    background-color: #0056b3;
+  }
+  
